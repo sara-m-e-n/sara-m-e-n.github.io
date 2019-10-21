@@ -1,0 +1,242 @@
+/*** GENERAL ***/
+
+body {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin-right: 0px;
+}
+
+/*** TOP BAR ***/
+
+.top-bar {
+    width: 100%;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 0px;
+}
+
+/*** LOGO ***/
+
+.logo {
+    width: 6%;
+    height: 6%;
+    float: left;
+    margin-left: 0%;
+}
+
+/*** MENU ***/
+
+.main-menu {
+    float: right;
+    width: 30%;margin-top: 1%;
+    margin-right: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 3%;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    font-family: Times New Roman, serif;
+    font-style: italic;
+}
+
+.main-menu a:hover {
+    text-decoration: underline;
+}
+
+/*** MAIN CONTENT ***/
+
+#main-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+#intro-text {
+    width: 50%;
+    line-height: 120%;
+    color: grey;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: Times New Roman, serif;
+    color: grey;
+    font-weight: lighter;
+    margin-top: 2%;
+}
+
+#intro-text {
+    float: left;
+}
+
+#main-img {
+    float: right;
+    width: 40%;
+}
+
+/*** WORK AREA ***/
+
+h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    color: grey;
+    margin-left: 4%;
+    font-family: Times New Roman, serif;
+    font-weight: lighter;
+}
+
+#latest-work {
+    margin-top: 5%;
+    width: 80%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
+#latest-work li {
+    list-style: none;
+    width: 30%;
+    display: inline-block; 
+}
+
+.work-icon {
+    border: lightgrey 2px solid;
+    width: 80%;
+    height: 80%;
+    display: inline-block;
+}
+/*.work-icon:hover {
+    filter: blur(3px);
+} */
+.work-icon:hover {
+    border: grey 2px solid;
+}
+
+/*** ABOUT ***/
+
+.about {
+    margin-bottom: 7%;
+}
+
+.about p {
+    line-height: 150%;
+    color: grey;
+}
+
+#about-section {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#about-section ul {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+#about-section li {
+    width: 30%;
+    display: inline-block;
+    font-family: Times New Roman, serif; 
+    color: lightgray;
+    font-size: 120%;
+    margin-left: 10%;
+}
+
+/*#about-section h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 250%;*/
+}
+
+/*** PORTFOLIO ***/
+
+.project {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.project-img {
+    width: 40%;
+    float: right;
+    margin-bottom: 5%;
+}
+
+#project-section {
+    margin-top: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-desc {
+    width: 50%;
+    float: left;
+}
+
+.project-desc p {
+    color: grey;
+    line-height: 150%;
+}
+
+h2 {
+    color: grey;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/*** CLEARFIX ***/
+/* From Nicholas Gallagher
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
